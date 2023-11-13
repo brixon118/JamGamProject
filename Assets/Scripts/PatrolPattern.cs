@@ -6,8 +6,8 @@ public class PatrolPattern : MonoBehaviour
 {
     private Rigidbody2D rb { get { if (!_rb) _rb = GetComponent<Rigidbody2D>(); return _rb; } }
     private Rigidbody2D _rb;
-    public float moveSpeed = 6;
-    public GameObject[] patrolPoints;
+    [SerializeField] private float moveSpeed = 6;
+    [SerializeField] private GameObject[] patrolPoints;
     private int patrolIndex = 0;
 
     // Start is called before the first frame update
