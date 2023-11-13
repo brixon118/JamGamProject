@@ -22,6 +22,8 @@ public class TeleportOnTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
+
         print(collision.gameObject.name);
         if (collision.gameObject.tag != tagToTeleport)
             return;
