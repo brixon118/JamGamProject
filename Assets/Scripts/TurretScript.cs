@@ -8,7 +8,12 @@ public class TurretScript : MonoBehaviour
 
     [SerializeField] private bool Key;
 
-    
+    private float initialAngle;
+
+    void Start()
+    {
+        initialAngle = Mathf.Atan2(transform.up.y, transform.up.x) * Mathf.Rad2Deg;
+    }
 
     public void OnKeyIn()
     {
@@ -27,10 +32,11 @@ public class TurretScript : MonoBehaviour
         if (Key)
         {
             // Calculate the angle based on time and oscillation parameters
-            float angle = Mathf.Sin(Time.time * oscillationSpeed * Mathf.Deg2Rad) * oscillationAngle;
+            float angle = initialAngle + Mathf.Sin(Time.time * oscillationSpeed * Mathf.Deg2Rad) * oscillationAngle;
 
             // Set the rotation of the turret
             transform.rotation = Quaternion.Euler(0f, 0f, angle);
+            transform.Rotate(0, 0, -90, Space.World);
         }
         
     }

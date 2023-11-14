@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6839728032576866432}
   - component: {fileID: 6839728032576866439}
   - component: {fileID: 6839728032576866435}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Patrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ Rigidbody2D:
   m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -154,6 +154,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  rotationTime: 0
 --- !u!1 &6839728033128755972
 GameObject:
   m_ObjectHideFlags: 0

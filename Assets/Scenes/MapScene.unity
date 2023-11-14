@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 3329729}
   - component: {fileID: 3329730}
   - component: {fileID: 3329731}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 18007755}
   - component: {fileID: 18007756}
   - component: {fileID: 18007757}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   - component: {fileID: 22886419}
   - component: {fileID: 22886420}
   - component: {fileID: 22886421}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 26852984}
   - component: {fileID: 26852985}
   - component: {fileID: 26852986}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 45521878}
   - component: {fileID: 45521880}
   - component: {fileID: 45521879}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -989,7 +989,7 @@ GameObject:
   - component: {fileID: 57204473}
   - component: {fileID: 57204474}
   - component: {fileID: 57204475}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,7 +1100,7 @@ GameObject:
   - component: {fileID: 62549834}
   - component: {fileID: 62549835}
   - component: {fileID: 62549836}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,7 +1211,7 @@ GameObject:
   - component: {fileID: 76088893}
   - component: {fileID: 76088894}
   - component: {fileID: 76088895}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1322,7 +1322,7 @@ GameObject:
   - component: {fileID: 82993183}
   - component: {fileID: 82993184}
   - component: {fileID: 82993185}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1513,6 +1513,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 6
       objectReference: {fileID: 0}
@@ -1544,6 +1548,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 72
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &86549939 stripped
@@ -1560,7 +1572,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1603,6 +1615,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1617,6 +1633,14 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
@@ -1663,6 +1687,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (7)
@@ -1673,7 +1705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1764,7 +1796,7 @@ GameObject:
   - component: {fileID: 108184594}
   - component: {fileID: 108184595}
   - component: {fileID: 108184596}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1986,7 +2018,7 @@ GameObject:
   - component: {fileID: 110702093}
   - component: {fileID: 110702094}
   - component: {fileID: 110702095}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2097,7 +2129,7 @@ GameObject:
   - component: {fileID: 116989151}
   - component: {fileID: 116989152}
   - component: {fileID: 116989153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2239,7 +2271,7 @@ GameObject:
   - component: {fileID: 145911487}
   - component: {fileID: 145911488}
   - component: {fileID: 145911489}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2525,7 +2557,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2568,6 +2600,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -2591,6 +2627,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &177965733 stripped
@@ -2609,7 +2653,7 @@ GameObject:
   - component: {fileID: 183788661}
   - component: {fileID: 183788662}
   - component: {fileID: 183788663}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2720,7 +2764,7 @@ GameObject:
   - component: {fileID: 185764339}
   - component: {fileID: 185764340}
   - component: {fileID: 185764341}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2872,6 +2916,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 12
       objectReference: {fileID: 0}
@@ -2927,6 +2975,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &187084679 stripped
@@ -2945,7 +3001,7 @@ GameObject:
   - component: {fileID: 191633822}
   - component: {fileID: 191633823}
   - component: {fileID: 191633824}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3056,7 +3112,7 @@ GameObject:
   - component: {fileID: 201366383}
   - component: {fileID: 201366384}
   - component: {fileID: 201366385}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3167,7 +3223,7 @@ GameObject:
   - component: {fileID: 207094619}
   - component: {fileID: 207094620}
   - component: {fileID: 207094621}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3278,7 +3334,7 @@ GameObject:
   - component: {fileID: 210767188}
   - component: {fileID: 210767189}
   - component: {fileID: 210767190}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3389,7 +3445,7 @@ GameObject:
   - component: {fileID: 212962482}
   - component: {fileID: 212962483}
   - component: {fileID: 212962484}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3513,7 +3569,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219620710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.5, y: 74, z: 0}
+  m_LocalPosition: {x: 54, y: 74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3631,7 +3687,7 @@ GameObject:
   - component: {fileID: 225584116}
   - component: {fileID: 225584117}
   - component: {fileID: 225584118}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3777,7 +3833,7 @@ GameObject:
   - component: {fileID: 234178836}
   - component: {fileID: 234178837}
   - component: {fileID: 234178838}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3888,7 +3944,7 @@ GameObject:
   - component: {fileID: 239902379}
   - component: {fileID: 239902380}
   - component: {fileID: 239902381}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3995,6 +4051,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 72
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (9)
@@ -4005,7 +4069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4065,7 +4129,7 @@ GameObject:
   - component: {fileID: 253061266}
   - component: {fileID: 253061267}
   - component: {fileID: 253061268}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4176,7 +4240,7 @@ GameObject:
   - component: {fileID: 267486362}
   - component: {fileID: 267486363}
   - component: {fileID: 267486364}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4287,7 +4351,7 @@ GameObject:
   - component: {fileID: 269557323}
   - component: {fileID: 269557325}
   - component: {fileID: 269557324}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4398,7 +4462,7 @@ GameObject:
   - component: {fileID: 269982861}
   - component: {fileID: 269982862}
   - component: {fileID: 269982863}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4636,6 +4700,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 32
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (1)
@@ -4701,7 +4769,7 @@ GameObject:
   - component: {fileID: 322904808}
   - component: {fileID: 322904809}
   - component: {fileID: 322904810}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4877,7 +4945,7 @@ GameObject:
   - component: {fileID: 336071524}
   - component: {fileID: 336071525}
   - component: {fileID: 336071526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5019,7 +5087,7 @@ GameObject:
   - component: {fileID: 337967246}
   - component: {fileID: 337967247}
   - component: {fileID: 337967248}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5130,7 +5198,7 @@ GameObject:
   - component: {fileID: 340639509}
   - component: {fileID: 340639510}
   - component: {fileID: 340639511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5303,7 +5371,7 @@ GameObject:
   - component: {fileID: 367983132}
   - component: {fileID: 367983133}
   - component: {fileID: 367983134}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5414,7 +5482,7 @@ GameObject:
   - component: {fileID: 368139917}
   - component: {fileID: 368139918}
   - component: {fileID: 368139919}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5523,7 +5591,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5564,6 +5632,10 @@ PrefabInstance:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
@@ -5653,6 +5725,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &375340411 stripped
@@ -5671,7 +5751,7 @@ GameObject:
   - component: {fileID: 377208762}
   - component: {fileID: 377208763}
   - component: {fileID: 377208764}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5809,6 +5889,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (3)
@@ -5819,7 +5907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5879,7 +5967,7 @@ GameObject:
   - component: {fileID: 405078890}
   - component: {fileID: 405078891}
   - component: {fileID: 405078892}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5990,7 +6078,7 @@ GameObject:
   - component: {fileID: 407490207}
   - component: {fileID: 407490208}
   - component: {fileID: 407490209}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6101,7 +6189,7 @@ GameObject:
   - component: {fileID: 409251737}
   - component: {fileID: 409251738}
   - component: {fileID: 409251739}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6212,7 +6300,7 @@ GameObject:
   - component: {fileID: 420766440}
   - component: {fileID: 420766441}
   - component: {fileID: 420766442}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6323,7 +6411,7 @@ GameObject:
   - component: {fileID: 427245234}
   - component: {fileID: 427245235}
   - component: {fileID: 427245236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6434,7 +6522,7 @@ GameObject:
   - component: {fileID: 429912336}
   - component: {fileID: 429912337}
   - component: {fileID: 429912338}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6545,7 +6633,7 @@ GameObject:
   - component: {fileID: 435572190}
   - component: {fileID: 435572191}
   - component: {fileID: 435572192}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6687,7 +6775,7 @@ GameObject:
   - component: {fileID: 441023466}
   - component: {fileID: 441023467}
   - component: {fileID: 441023468}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7012,6 +7100,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 12
       objectReference: {fileID: 0}
@@ -7067,6 +7159,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &465101649 stripped
@@ -7085,7 +7185,7 @@ GameObject:
   - component: {fileID: 470857135}
   - component: {fileID: 470857136}
   - component: {fileID: 470857137}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7196,7 +7296,7 @@ GameObject:
   - component: {fileID: 477548261}
   - component: {fileID: 477548262}
   - component: {fileID: 477548263}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7307,7 +7407,7 @@ GameObject:
   - component: {fileID: 489669455}
   - component: {fileID: 489669456}
   - component: {fileID: 489669457}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7418,7 +7518,7 @@ GameObject:
   - component: {fileID: 500899832}
   - component: {fileID: 500899833}
   - component: {fileID: 500899834}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7529,7 +7629,7 @@ GameObject:
   - component: {fileID: 502388090}
   - component: {fileID: 502388091}
   - component: {fileID: 502388092}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7671,7 +7771,7 @@ GameObject:
   - component: {fileID: 510421411}
   - component: {fileID: 510421412}
   - component: {fileID: 510421413}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7819,7 +7919,7 @@ GameObject:
   - component: {fileID: 528084105}
   - component: {fileID: 528084106}
   - component: {fileID: 528084107}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8150,7 +8250,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8193,6 +8293,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -8207,6 +8311,14 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
@@ -8226,7 +8338,7 @@ GameObject:
   - component: {fileID: 541767232}
   - component: {fileID: 541767233}
   - component: {fileID: 541767234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8337,7 +8449,7 @@ GameObject:
   - component: {fileID: 545197415}
   - component: {fileID: 545197416}
   - component: {fileID: 545197417}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8448,7 +8560,7 @@ GameObject:
   - component: {fileID: 550803458}
   - component: {fileID: 550803459}
   - component: {fileID: 550803460}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8559,7 +8671,7 @@ GameObject:
   - component: {fileID: 552927668}
   - component: {fileID: 552927669}
   - component: {fileID: 552927670}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8732,7 +8844,7 @@ GameObject:
   - component: {fileID: 583493919}
   - component: {fileID: 583493920}
   - component: {fileID: 583493921}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9158,7 +9270,7 @@ GameObject:
   - component: {fileID: 624122298}
   - component: {fileID: 624122299}
   - component: {fileID: 624122300}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9335,7 +9447,7 @@ GameObject:
   - component: {fileID: 647319242}
   - component: {fileID: 647319243}
   - component: {fileID: 647319244}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9446,7 +9558,7 @@ GameObject:
   - component: {fileID: 648842562}
   - component: {fileID: 648842563}
   - component: {fileID: 648842564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9557,7 +9669,7 @@ GameObject:
   - component: {fileID: 652592068}
   - component: {fileID: 652592069}
   - component: {fileID: 652592070}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9730,7 +9842,7 @@ GameObject:
   - component: {fileID: 663123421}
   - component: {fileID: 663123422}
   - component: {fileID: 663123423}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9841,7 +9953,7 @@ GameObject:
   - component: {fileID: 663931402}
   - component: {fileID: 663931403}
   - component: {fileID: 663931404}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9983,7 +10095,7 @@ GameObject:
   - component: {fileID: 670617258}
   - component: {fileID: 670617259}
   - component: {fileID: 670617260}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10301,7 +10413,7 @@ GameObject:
   - component: {fileID: 684002437}
   - component: {fileID: 684002438}
   - component: {fileID: 684002439}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10517,7 +10629,7 @@ GameObject:
   - component: {fileID: 708686320}
   - component: {fileID: 708686322}
   - component: {fileID: 708686321}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10693,7 +10805,7 @@ GameObject:
   - component: {fileID: 718886036}
   - component: {fileID: 718886037}
   - component: {fileID: 718886038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10888,7 +11000,7 @@ GameObject:
   - component: {fileID: 726996787}
   - component: {fileID: 726996788}
   - component: {fileID: 726996789}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10999,7 +11111,7 @@ GameObject:
   - component: {fileID: 727136619}
   - component: {fileID: 727136620}
   - component: {fileID: 727136621}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11110,7 +11222,7 @@ GameObject:
   - component: {fileID: 730698604}
   - component: {fileID: 730698606}
   - component: {fileID: 730698605}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11217,6 +11329,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (12)
@@ -11227,7 +11347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11318,7 +11438,7 @@ GameObject:
   - component: {fileID: 751489238}
   - component: {fileID: 751489239}
   - component: {fileID: 751489240}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11429,7 +11549,7 @@ GameObject:
   - component: {fileID: 752649823}
   - component: {fileID: 752649824}
   - component: {fileID: 752649825}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11607,7 +11727,7 @@ GameObject:
   - component: {fileID: 766032101}
   - component: {fileID: 766032102}
   - component: {fileID: 766032103}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11856,7 +11976,7 @@ GameObject:
   - component: {fileID: 776178515}
   - component: {fileID: 776178516}
   - component: {fileID: 776178517}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11967,7 +12087,7 @@ GameObject:
   - component: {fileID: 781560775}
   - component: {fileID: 781560776}
   - component: {fileID: 781560777}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12078,7 +12198,7 @@ GameObject:
   - component: {fileID: 795290992}
   - component: {fileID: 795290993}
   - component: {fileID: 795290994}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12465,6 +12585,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 8
       objectReference: {fileID: 0}
@@ -12504,6 +12628,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &820950887 stripped
@@ -12522,7 +12654,7 @@ GameObject:
   - component: {fileID: 825340267}
   - component: {fileID: 825340268}
   - component: {fileID: 825340269}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12775,7 +12907,7 @@ GameObject:
   - component: {fileID: 848532121}
   - component: {fileID: 848532122}
   - component: {fileID: 848532123}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12886,7 +13018,7 @@ GameObject:
   - component: {fileID: 849226979}
   - component: {fileID: 849226980}
   - component: {fileID: 849226981}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12993,6 +13125,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 72
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (8)
@@ -13003,7 +13143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13063,7 +13203,7 @@ GameObject:
   - component: {fileID: 858489934}
   - component: {fileID: 858489935}
   - component: {fileID: 858489936}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13174,7 +13314,7 @@ GameObject:
   - component: {fileID: 866715383}
   - component: {fileID: 866715384}
   - component: {fileID: 866715385}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13285,7 +13425,7 @@ GameObject:
   - component: {fileID: 876533050}
   - component: {fileID: 876533051}
   - component: {fileID: 876533052}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13427,7 +13567,7 @@ GameObject:
   - component: {fileID: 886807543}
   - component: {fileID: 886807544}
   - component: {fileID: 886807545}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13717,7 +13857,7 @@ GameObject:
   - component: {fileID: 906350300}
   - component: {fileID: 906350301}
   - component: {fileID: 906350302}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13859,7 +13999,7 @@ GameObject:
   - component: {fileID: 930680939}
   - component: {fileID: 930680940}
   - component: {fileID: 930680941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14003,7 +14143,7 @@ GameObject:
   - component: {fileID: 934995498}
   - component: {fileID: 934995499}
   - component: {fileID: 934995500}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14214,7 +14354,7 @@ GameObject:
   - component: {fileID: 980486645}
   - component: {fileID: 980486646}
   - component: {fileID: 980486647}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14436,7 +14576,7 @@ GameObject:
   - component: {fileID: 990799498}
   - component: {fileID: 990799499}
   - component: {fileID: 990799500}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14578,7 +14718,7 @@ GameObject:
   - component: {fileID: 995290582}
   - component: {fileID: 995290583}
   - component: {fileID: 995290584}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14917,7 +15057,7 @@ GameObject:
   - component: {fileID: 1033778945}
   - component: {fileID: 1033778946}
   - component: {fileID: 1033778947}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15028,7 +15168,7 @@ GameObject:
   - component: {fileID: 1039009028}
   - component: {fileID: 1039009029}
   - component: {fileID: 1039009030}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15170,7 +15310,7 @@ GameObject:
   - component: {fileID: 1061753978}
   - component: {fileID: 1061753979}
   - component: {fileID: 1061753980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15343,7 +15483,7 @@ GameObject:
   - component: {fileID: 1065161263}
   - component: {fileID: 1065161264}
   - component: {fileID: 1065161265}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15454,7 +15594,7 @@ GameObject:
   - component: {fileID: 1074458154}
   - component: {fileID: 1074458155}
   - component: {fileID: 1074458156}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15673,7 +15813,7 @@ GameObject:
   - component: {fileID: 1084646657}
   - component: {fileID: 1084646658}
   - component: {fileID: 1084646659}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15924,7 +16064,7 @@ GameObject:
   - component: {fileID: 1108250573}
   - component: {fileID: 1108250575}
   - component: {fileID: 1108250574}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16035,7 +16175,7 @@ GameObject:
   - component: {fileID: 1108436903}
   - component: {fileID: 1108436904}
   - component: {fileID: 1108436905}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16224,6 +16364,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -16239,6 +16383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!1 &1115695101
@@ -16252,7 +16400,7 @@ GameObject:
   - component: {fileID: 1115695102}
   - component: {fileID: 1115695103}
   - component: {fileID: 1115695104}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16427,7 +16575,7 @@ GameObject:
   - component: {fileID: 1128849537}
   - component: {fileID: 1128849538}
   - component: {fileID: 1128849539}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16632,7 +16780,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16675,6 +16823,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -16689,6 +16841,14 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
@@ -16739,7 +16899,7 @@ GameObject:
   - component: {fileID: 1152426262}
   - component: {fileID: 1152426263}
   - component: {fileID: 1152426264}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17364,7 +17524,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17405,6 +17565,10 @@ PrefabInstance:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
@@ -17462,6 +17626,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &1185763099 stripped
@@ -17478,7 +17650,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17519,6 +17691,10 @@ PrefabInstance:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
@@ -17576,6 +17752,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &1190253126 stripped
@@ -17625,7 +17809,7 @@ GameObject:
   - component: {fileID: 1206768592}
   - component: {fileID: 1206768593}
   - component: {fileID: 1206768594}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17798,7 +17982,7 @@ GameObject:
   - component: {fileID: 1233157570}
   - component: {fileID: 1233157571}
   - component: {fileID: 1233157572}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17909,7 +18093,7 @@ GameObject:
   - component: {fileID: 1250355717}
   - component: {fileID: 1250355718}
   - component: {fileID: 1250355719}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18131,7 +18315,7 @@ GameObject:
   - component: {fileID: 1257037369}
   - component: {fileID: 1257037370}
   - component: {fileID: 1257037371}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18374,7 +18558,7 @@ GameObject:
   - component: {fileID: 1263425214}
   - component: {fileID: 1263425215}
   - component: {fileID: 1263425216}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18481,6 +18665,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 72
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (6)
@@ -18491,7 +18683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18623,6 +18815,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 12
       objectReference: {fileID: 0}
@@ -18678,6 +18874,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &1273208422 stripped
@@ -18727,7 +18931,7 @@ GameObject:
   - component: {fileID: 1285275565}
   - component: {fileID: 1285275566}
   - component: {fileID: 1285275567}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18838,7 +19042,7 @@ GameObject:
   - component: {fileID: 1292748268}
   - component: {fileID: 1292748269}
   - component: {fileID: 1292748270}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18949,7 +19153,7 @@ GameObject:
   - component: {fileID: 1298795793}
   - component: {fileID: 1298795794}
   - component: {fileID: 1298795795}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19399,7 +19603,7 @@ GameObject:
   - component: {fileID: 1363717781}
   - component: {fileID: 1363717782}
   - component: {fileID: 1363717783}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19510,7 +19714,7 @@ GameObject:
   - component: {fileID: 1371398997}
   - component: {fileID: 1371398998}
   - component: {fileID: 1371398999}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19679,6 +19883,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (4)
@@ -19689,7 +19901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19749,7 +19961,7 @@ GameObject:
   - component: {fileID: 1417471618}
   - component: {fileID: 1417471619}
   - component: {fileID: 1417471620}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19858,7 +20070,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19899,6 +20111,10 @@ PrefabInstance:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
@@ -19988,6 +20204,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &1418127207 stripped
@@ -20006,7 +20230,7 @@ GameObject:
   - component: {fileID: 1421906689}
   - component: {fileID: 1421906690}
   - component: {fileID: 1421906691}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20117,7 +20341,7 @@ GameObject:
   - component: {fileID: 1427139447}
   - component: {fileID: 1427139449}
   - component: {fileID: 1427139448}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20228,7 +20452,7 @@ GameObject:
   - component: {fileID: 1439792287}
   - component: {fileID: 1439792288}
   - component: {fileID: 1439792289}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20401,7 +20625,7 @@ GameObject:
   - component: {fileID: 1449035785}
   - component: {fileID: 1449035786}
   - component: {fileID: 1449035787}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20512,7 +20736,7 @@ GameObject:
   - component: {fileID: 1469739844}
   - component: {fileID: 1469739845}
   - component: {fileID: 1469739846}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20619,6 +20843,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (2)
@@ -20720,7 +20948,7 @@ GameObject:
   - component: {fileID: 1498159690}
   - component: {fileID: 1498159691}
   - component: {fileID: 1498159692}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20862,7 +21090,7 @@ GameObject:
   - component: {fileID: 1499968625}
   - component: {fileID: 1499968626}
   - component: {fileID: 1499968627}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20973,7 +21201,7 @@ GameObject:
   - component: {fileID: 1501128417}
   - component: {fileID: 1501128418}
   - component: {fileID: 1501128419}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21084,7 +21312,7 @@ GameObject:
   - component: {fileID: 1512000845}
   - component: {fileID: 1512000846}
   - component: {fileID: 1512000847}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21236,7 +21464,7 @@ GameObject:
   - component: {fileID: 1517146366}
   - component: {fileID: 1517146367}
   - component: {fileID: 1517146368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21414,7 +21642,7 @@ GameObject:
   - component: {fileID: 1536838011}
   - component: {fileID: 1536838013}
   - component: {fileID: 1536838012}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21525,7 +21753,7 @@ GameObject:
   - component: {fileID: 1539337703}
   - component: {fileID: 1539337704}
   - component: {fileID: 1539337705}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21769,7 +21997,7 @@ GameObject:
   - component: {fileID: 1569837040}
   - component: {fileID: 1569837041}
   - component: {fileID: 1569837042}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21911,7 +22139,7 @@ GameObject:
   - component: {fileID: 1577611187}
   - component: {fileID: 1577611188}
   - component: {fileID: 1577611189}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22020,7 +22248,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22063,6 +22291,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -22077,6 +22309,14 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
@@ -22168,6 +22408,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 12
       objectReference: {fileID: 0}
@@ -22223,6 +22467,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &1588081351 stripped
@@ -22241,7 +22493,7 @@ GameObject:
   - component: {fileID: 1588879454}
   - component: {fileID: 1588879455}
   - component: {fileID: 1588879456}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22383,7 +22635,7 @@ GameObject:
   - component: {fileID: 1607490394}
   - component: {fileID: 1607490395}
   - component: {fileID: 1607490396}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22494,7 +22746,7 @@ GameObject:
   - component: {fileID: 1609932716}
   - component: {fileID: 1609932717}
   - component: {fileID: 1609932718}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22605,7 +22857,7 @@ GameObject:
   - component: {fileID: 1614669051}
   - component: {fileID: 1614669052}
   - component: {fileID: 1614669053}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22714,7 +22966,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22757,6 +23009,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -22780,6 +23036,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &1620798737 stripped
@@ -22798,7 +23062,7 @@ GameObject:
   - component: {fileID: 1624893277}
   - component: {fileID: 1624893278}
   - component: {fileID: 1624893279}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22977,7 +23241,7 @@ GameObject:
   - component: {fileID: 1645252166}
   - component: {fileID: 1645252167}
   - component: {fileID: 1645252168}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23115,6 +23379,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 72
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (11)
@@ -23125,7 +23397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23296,7 +23568,7 @@ GameObject:
   - component: {fileID: 1654909183}
   - component: {fileID: 1654909184}
   - component: {fileID: 1654909185}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23407,7 +23679,7 @@ GameObject:
   - component: {fileID: 1666676094}
   - component: {fileID: 1666676095}
   - component: {fileID: 1666676096}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23518,7 +23790,7 @@ GameObject:
   - component: {fileID: 1667720688}
   - component: {fileID: 1667720690}
   - component: {fileID: 1667720689}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23629,7 +23901,7 @@ GameObject:
   - component: {fileID: 1671938659}
   - component: {fileID: 1671938660}
   - component: {fileID: 1671938661}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23740,7 +24012,7 @@ GameObject:
   - component: {fileID: 1674740534}
   - component: {fileID: 1674740535}
   - component: {fileID: 1674740536}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23851,7 +24123,7 @@ GameObject:
   - component: {fileID: 1686252205}
   - component: {fileID: 1686252206}
   - component: {fileID: 1686252207}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23962,7 +24234,7 @@ GameObject:
   - component: {fileID: 1693454662}
   - component: {fileID: 1693454663}
   - component: {fileID: 1693454664}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24073,7 +24345,7 @@ GameObject:
   - component: {fileID: 1706116640}
   - component: {fileID: 1706116641}
   - component: {fileID: 1706116642}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24336,6 +24608,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 10
       objectReference: {fileID: 0}
@@ -24382,6 +24658,14 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 72
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
@@ -24432,7 +24716,7 @@ GameObject:
   - component: {fileID: 1738518480}
   - component: {fileID: 1738518481}
   - component: {fileID: 1738518482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24548,7 +24832,7 @@ GameObject:
   - component: {fileID: 1748030512}
   - component: {fileID: 1748030513}
   - component: {fileID: 1748030514}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24657,7 +24941,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24700,6 +24984,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -24722,6 +25010,14 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
@@ -24834,7 +25130,7 @@ GameObject:
   - component: {fileID: 1780531873}
   - component: {fileID: 1780531874}
   - component: {fileID: 1780531875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24945,7 +25241,7 @@ GameObject:
   - component: {fileID: 1784063671}
   - component: {fileID: 1784063672}
   - component: {fileID: 1784063673}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25056,7 +25352,7 @@ GameObject:
   - component: {fileID: 1795042254}
   - component: {fileID: 1795042255}
   - component: {fileID: 1795042256}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25424,6 +25720,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 72
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (10)
@@ -25434,7 +25738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25494,7 +25798,7 @@ GameObject:
   - component: {fileID: 1858724161}
   - component: {fileID: 1858724162}
   - component: {fileID: 1858724163}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25603,7 +25907,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25644,6 +25948,10 @@ PrefabInstance:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
@@ -25733,6 +26041,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &1858981591 stripped
@@ -25751,7 +26067,7 @@ GameObject:
   - component: {fileID: 1868928113}
   - component: {fileID: 1868928114}
   - component: {fileID: 1868928115}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25891,7 +26207,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25934,6 +26250,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -25956,6 +26276,14 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
@@ -26037,7 +26365,7 @@ GameObject:
   - component: {fileID: 1920603555}
   - component: {fileID: 1920603556}
   - component: {fileID: 1920603557}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26179,7 +26507,7 @@ GameObject:
   - component: {fileID: 1936140635}
   - component: {fileID: 1936140636}
   - component: {fileID: 1936140637}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26290,7 +26618,7 @@ GameObject:
   - component: {fileID: 1937069781}
   - component: {fileID: 1937069782}
   - component: {fileID: 1937069783}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26401,7 +26729,7 @@ GameObject:
   - component: {fileID: 1939185292}
   - component: {fileID: 1939185293}
   - component: {fileID: 1939185294}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26508,6 +26836,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (13)
@@ -26518,7 +26854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26578,7 +26914,7 @@ GameObject:
   - component: {fileID: 1942427298}
   - component: {fileID: 1942427299}
   - component: {fileID: 1942427300}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26694,7 +27030,7 @@ GameObject:
   - component: {fileID: 1967045451}
   - component: {fileID: 1967045452}
   - component: {fileID: 1967045453}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26805,7 +27141,7 @@ GameObject:
   - component: {fileID: 1976060768}
   - component: {fileID: 1976060769}
   - component: {fileID: 1976060770}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26914,7 +27250,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26957,6 +27293,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -26979,6 +27319,14 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
@@ -27109,7 +27457,7 @@ GameObject:
   - component: {fileID: 1983589203}
   - component: {fileID: 1983589204}
   - component: {fileID: 1983589205}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27220,7 +27568,7 @@ GameObject:
   - component: {fileID: 1991703693}
   - component: {fileID: 1991703694}
   - component: {fileID: 1991703695}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27424,7 +27772,7 @@ GameObject:
   - component: {fileID: 2003548656}
   - component: {fileID: 2003548657}
   - component: {fileID: 2003548658}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27576,6 +27924,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -27590,6 +27942,10 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
@@ -27607,7 +27963,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27648,6 +28004,10 @@ PrefabInstance:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
@@ -27737,6 +28097,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
 --- !u!4 &2030279348 stripped
@@ -27755,7 +28123,7 @@ GameObject:
   - component: {fileID: 2032206765}
   - component: {fileID: 2032206766}
   - component: {fileID: 2032206767}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27897,7 +28265,7 @@ GameObject:
   - component: {fileID: 2040271873}
   - component: {fileID: 2040271874}
   - component: {fileID: 2040271875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28008,7 +28376,7 @@ GameObject:
   - component: {fileID: 2042044504}
   - component: {fileID: 2042044505}
   - component: {fileID: 2042044506}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28323,7 +28691,7 @@ GameObject:
   - component: {fileID: 2076569381}
   - component: {fileID: 2076569382}
   - component: {fileID: 2076569383}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28434,7 +28802,7 @@ GameObject:
   - component: {fileID: 2081402422}
   - component: {fileID: 2081402423}
   - component: {fileID: 2081402424}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28545,7 +28913,7 @@ GameObject:
   - component: {fileID: 2086918685}
   - component: {fileID: 2086918686}
   - component: {fileID: 2086918687}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28656,7 +29024,7 @@ GameObject:
   - component: {fileID: 2087122128}
   - component: {fileID: 2087122130}
   - component: {fileID: 2087122129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28794,6 +29162,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345055311}
     m_Modifications:
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: -64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183340537490866295, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 72
+      objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629924, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_Name
       value: Camera (5)
@@ -28804,7 +29180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 6183340537661629947, guid: 39253bd02979c7b4eafce68eff27e1ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28864,7 +29240,7 @@ GameObject:
   - component: {fileID: 2098473854}
   - component: {fileID: 2098473855}
   - component: {fileID: 2098473856}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28973,7 +29349,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866434, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29016,6 +29392,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: rotationTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728032576866435, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -29038,6 +29418,14 @@ PrefabInstance:
     - target: {fileID: 6839728032576866438, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
       propertyPath: m_Name
       value: Patrol (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839728033128755974, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
+      propertyPath: placeToTeleportTo.y
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d8e0d5be95bb574e8678132f971d54b, type: 3}
