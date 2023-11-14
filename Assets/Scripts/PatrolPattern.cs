@@ -12,17 +12,26 @@ public class PatrolPattern : MonoBehaviour
 
     [SerializeField] private float rotationTime;
 
+    private Vector2 startPosition;
+    private Vector2 endPosition;
+
     private Quaternion startRotation;
     private Quaternion endRotation;
 
-    private float rotation;
+    private float movementTime;
+
+    private float movement;
     private bool rotating;
     private bool deactivated;
 
     // Start is called before the first frame update
     void Start()
     {
+        startPosition = rb.position;
+        Vector3 patrolPoint = patrolPoints[patrolIndex].transform.position;
+        endPosition = new Vector2(patrolPoint.x, patrolPoint.y);
         endRotation = transform.rotation;
+        movementTime = Vector2.Distance(startPosition, endPosition) / moveSpeed;
     }
 
     // Update is called once per frame
@@ -45,34 +54,52 @@ public class PatrolPattern : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (deactivated) return;
+        if (!rb || patrolPoints == null || patrolPoints.Length == 0 || deactivated) return;
+        movement += Time.deltaTime;
         if (rotating)
         {
-            rotation += Time.deltaTime;
-            if (rotation < rotationTime)
+            if (movement < rotationTime)
             {
-                transform.rotation = Quaternion.Slerp(startRotation, endRotation, rotation / rotationTime);
+                transform.rotation = Quaternion.Slerp(startRotation, endRotation, movement / rotationTime);
                 transform.Rotate(0, 0, 90, Space.World);
             }
             else
             {
                 transform.rotation = endRotation;
                 transform.Rotate(0, 0, 90, Space.World);
-                rotation = 0;
+                movement = 0;
                 rotating = false;
             }
-            return;
         }
+        else if (movement < movementTime) rb.MovePosition(Vector2.Lerp(startPosition, endPosition, movement / movementTime));
+        else
+        {
+            rb.MovePosition(endPosition);
+            patrolIndex = (patrolIndex + 1) % patrolPoints.Length;
+            startPosition = rb.position;
+            Vector3 patrolPoint = patrolPoints[patrolIndex].transform.position;
+            endPosition = new Vector2(patrolPoint.x, patrolPoint.y);
+            movementTime = Vector2.Distance(startPosition, endPosition) / moveSpeed;
+            startRotation = endRotation;
+            endRotation = Quaternion.LookRotation(Vector3.forward, patrolPoints[patrolIndex].transform.position - transform.position);
+            movement = 0;
+            rotating = true;
+        }
+        /*
         Vector3 patrolPoint = patrolPoints[patrolIndex].transform.position;
         Vector2 patrolPoint2D = new Vector2(patrolPoint.x, patrolPoint.y);
         rb.MovePosition(rb.position + (patrolPoint2D - rb.position).normalized * moveSpeed * Time.deltaTime);
         if (Vector2.Distance(rb.position, patrolPoint2D) <= 0.1f)
         {
             patrolIndex = (patrolIndex + 1) % patrolPoints.Length;
+            startPosition = rb.position;
+            endPosition = new Vector2(patrolPoint.x, patrolPoint.y);
+            movementTime = Vector2.Distance(startPosition, endPosition) / moveSpeed;
             startRotation = endRotation;
             endRotation = Quaternion.LookRotation(Vector3.forward, patrolPoints[patrolIndex].transform.position - transform.position);
             rotating = true;
         }
+        */
     }
 
     public void StopVelocity()
