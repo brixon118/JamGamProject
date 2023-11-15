@@ -613,8 +613,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294936712
+  m_fontColor: {r: 0.53333336, g: 0.53333336, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -631,8 +631,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 184
-  m_fontSizeBase: 184
+  m_fontSize: 200
+  m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1257,7 +1257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 63f3a6f4bef6b02469761a353a2d28b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f70133afe35aca64ba160a31b9c4bd29, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1917,7 +1917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2ec0e0dc97e037d458b49a1cc79abe1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f70133afe35aca64ba160a31b9c4bd29, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2479,8 +2479,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280297516
+  m_fontColor: {r: 0.17254902, g: 0.15686275, b: 0.1254902, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3245,7 +3245,7 @@ MonoBehaviour:
 
 
 
-    CourtOfBones
+    Courtney Flint
 
     Meswif
 
@@ -3257,7 +3257,7 @@ MonoBehaviour:
 
     Paladin
 
-    Graviel'
+    Graviek'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a96c3d40a89a2f74b8cb120d1be67375, type: 2}
   m_sharedMaterial: {fileID: 3088796748268503753, guid: a96c3d40a89a2f74b8cb120d1be67375, type: 2}
@@ -3831,7 +3831,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cfc683ced9047d14dada83c90893f62d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f70133afe35aca64ba160a31b9c4bd29, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
