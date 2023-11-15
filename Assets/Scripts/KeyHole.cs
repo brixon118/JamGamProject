@@ -9,6 +9,10 @@ public class KeyHole : MonoBehaviour
     public UnityEvent unlockEvent;
     public UnityEvent lockEvent;
 
+    [SerializeField] private int energyQuota;
+
+    private bool unlocked;
+    private bool metQuota;
 
     // Start is called before the first frame update
     void Start()
@@ -19,9 +23,39 @@ public class KeyHole : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (GetComponentInChildren<Key>())
             unlockEvent.Invoke();
         else
             lockEvent.Invoke();
+        */
+    }
+
+    public int GetEnergyQuota()
+    {
+        return energyQuota;
+    }
+
+    public bool GetUnlocked()
+    {
+        return unlocked;
+    }
+
+    public bool GetMetEnergyQuota()
+    {
+        return metQuota;
+    }
+
+    public void Unlock()
+    {
+        unlockEvent.Invoke();
+        unlocked = true;
+        metQuota = true;
+    }
+
+    public void Lock()
+    {
+        lockEvent.Invoke();
+        unlocked = false;
     }
 }

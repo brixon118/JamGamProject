@@ -44,7 +44,7 @@ public class TeleportOnTrigger : MonoBehaviour
     {
         
 
-        print(collision.gameObject.name);
+        //print(collision.gameObject.name);
         if (collision.gameObject.tag != tagToTeleport)
             return;
         collision.gameObject.transform.position = placeToTeleportTo;

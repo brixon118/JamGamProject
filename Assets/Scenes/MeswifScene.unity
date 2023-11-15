@@ -268,7 +268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &63656261
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1481,7 +1481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &363109051
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1785,7 +1785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &415374105
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2432,6 +2432,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noteScreen: {fileID: 791534925}
+  canvasesToHide: []
+  pauseManager: {fileID: 0}
 --- !u!1 &470857134
 GameObject:
   m_ObjectHideFlags: 0
@@ -3150,7 +3152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &718478301
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4403,6 +4405,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   thisKeyHole: {fileID: 696951086}
+  energyText: {fileID: 0}
 --- !u!114 &1179230127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6466,7 +6469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1746857705
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6874,7 +6877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1791001993
 SpriteRenderer:
   m_ObjectHideFlags: 0

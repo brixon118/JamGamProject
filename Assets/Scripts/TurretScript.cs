@@ -10,6 +10,8 @@ public class TurretScript : MonoBehaviour
 
     private float initialAngle;
 
+    private bool deactivated;
+
     void Start()
     {
         initialAngle = Mathf.Atan2(transform.up.y, transform.up.x) * Mathf.Rad2Deg;
@@ -27,9 +29,14 @@ public class TurretScript : MonoBehaviour
         Key = false;
     }
 
+    public void Deactivate()
+    {
+        deactivated = true;
+    }
+
     private void Update()
     {
-        if (Key)
+        if (!deactivated)
         {
             // Calculate the angle based on time and oscillation parameters
             float angle = initialAngle + Mathf.Sin(Time.time * oscillationSpeed * Mathf.Deg2Rad) * oscillationAngle;

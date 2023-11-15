@@ -5,7 +5,7 @@ using UnityEngine;
 public class Note : MonoBehaviour
 {
     [SerializeField] private GameObject noteScreen;
-    [SerializeField] private GameObject[] canvasesToHide;
+    [SerializeField] private GameObject canvasToHide;
     [SerializeField] private PauseManager pauseManager;
 
     // Start is called before the first frame update
@@ -24,7 +24,7 @@ public class Note : MonoBehaviour
     {
         if (other.GetComponent<PlayerControls>() == null) return;
         pauseManager.SetPaused(true);
-        foreach (GameObject c in canvasesToHide) c.SetActive(false);
+        canvasToHide.SetActive(false);
         noteScreen.SetActive(true);
         Destroy(gameObject);
     }

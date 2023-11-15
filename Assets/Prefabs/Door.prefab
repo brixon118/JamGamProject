@@ -557,6 +557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: KeyHole
       objectReference: {fileID: 0}
+    - target: {fileID: 3543051787302214735, guid: 54b8da88793a62a47bde9019e090ed94, type: 3}
+      propertyPath: m_TagString
+      value: KeyHoleSwitch
+      objectReference: {fileID: 0}
     - target: {fileID: 4640327057465443650, guid: 54b8da88793a62a47bde9019e090ed94, type: 3}
       propertyPath: m_Size.x
       value: 2.5
@@ -568,6 +572,10 @@ PrefabInstance:
     - target: {fileID: 4640327057465443650, guid: 54b8da88793a62a47bde9019e090ed94, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761366359509939451, guid: 54b8da88793a62a47bde9019e090ed94, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b8da88793a62a47bde9019e090ed94, type: 3}
