@@ -10,7 +10,11 @@ public class PatrolPattern : MonoBehaviour
     [SerializeField] private GameObject[] patrolPoints;
     private int patrolIndex = 0;
 
+    [SerializeField] private GameObject rotator;
+
     [SerializeField] private float rotationTime;
+
+    private EnemyAnimator animator;
 
     private Vector2 startPosition;
     private Vector2 endPosition;
@@ -27,10 +31,11 @@ public class PatrolPattern : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<EnemyAnimator>();
         startPosition = rb.position;
         Vector3 patrolPoint = patrolPoints[patrolIndex].transform.position;
         endPosition = new Vector2(patrolPoint.x, patrolPoint.y);
-        endRotation = transform.rotation;
+        endRotation = rotator.transform.rotation;
         movementTime = Vector2.Distance(startPosition, endPosition) / moveSpeed;
     }
 
@@ -60,13 +65,13 @@ public class PatrolPattern : MonoBehaviour
         {
             if (movement < rotationTime)
             {
-                transform.rotation = Quaternion.Slerp(startRotation, endRotation, movement / rotationTime);
-                transform.Rotate(0, 0, 90, Space.World);
+                rotator.transform.rotation = Quaternion.Slerp(startRotation, endRotation, movement / rotationTime);
+                rotator.transform.Rotate(0, 0, 90, Space.World);
             }
             else
             {
-                transform.rotation = endRotation;
-                transform.Rotate(0, 0, 90, Space.World);
+                rotator.transform.rotation = endRotation;
+                rotator.transform.Rotate(0, 0, 90, Space.World);
                 movement = 0;
                 rotating = false;
             }
@@ -79,6 +84,8 @@ public class PatrolPattern : MonoBehaviour
             startPosition = rb.position;
             Vector3 patrolPoint = patrolPoints[patrolIndex].transform.position;
             endPosition = new Vector2(patrolPoint.x, patrolPoint.y);
+            Vector2 move = endPosition - startPosition;
+            animator.SetAnimation(move.x == 0 && move.y == 0 ? -1 : Mathf.Abs(move.x) > Mathf.Abs(move.y) ? (move.x < 0 ? 2 : 3) : (move.y < 0 ? 0 : 1));
             movementTime = Vector2.Distance(startPosition, endPosition) / moveSpeed;
             startRotation = endRotation;
             endRotation = Quaternion.LookRotation(Vector3.forward, patrolPoints[patrolIndex].transform.position - transform.position);
