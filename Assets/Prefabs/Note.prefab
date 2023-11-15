@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8323071865024661096}
   - component: {fileID: 8323071865024661099}
-  - component: {fileID: 8323071865024661097}
+  - component: {fileID: 3206581020372134082}
   m_Layer: 0
   m_Name: Note
   m_TagString: Note
@@ -49,7 +49,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.38
---- !u!114 &8323071865024661097
+--- !u!114 &3206581020372134082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,8 +58,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8323071865024661098}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f54358c25341d34cbbc24be17c6f319, type: 3}
+  m_Script: {fileID: 11500000, guid: 5facd6668660e1047a4b50419b5c77fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Note: {fileID: 0}
-  ShowNote: 0
+  noteCloseUp: {fileID: 0}
