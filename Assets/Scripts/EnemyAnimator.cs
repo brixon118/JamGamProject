@@ -48,7 +48,7 @@ public class EnemyAnimator : MonoBehaviour
     {
         if (animation != a)
         {
-            if (a < 0) sr.sprite = animation == 0 ? idleFrontSprite : animation == 1 ? idleBackSprite : idleSideSprite;
+            if (a < 0) return;//sr.sprite = animation == 0 ? idleFrontSprite : animation == 1 ? idleBackSprite : idleSideSprite;
             else
             {
                 if (a == 3)
@@ -69,5 +69,10 @@ public class EnemyAnimator : MonoBehaviour
             }
             animation = a;
         }
+    }
+
+    public void Stop()
+    {
+        animation = -1;
     }
 }

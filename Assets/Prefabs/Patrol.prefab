@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370903084125951936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2500005, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.625, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6839728032576866434}
@@ -197,8 +197,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.8490566, g: 0.12415449, b: 0.12415449, a: 1}
+  m_Sprite: {fileID: 21300000, guid: d4f03b2f4ef269140bd43c9aa8c1b472, type: 3}
+  m_Color: {r: 0.8490566, g: 0.12415449, b: 0.12415449, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -225,7 +225,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 18.38, y: 12.1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -287,18 +287,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62058a70fb128ad4aacaadb34b24de11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleFrontSprite: {fileID: 0}
+  idleFrontSprite: {fileID: 21300000, guid: d4f03b2f4ef269140bd43c9aa8c1b472, type: 3}
   idleBackSprite: {fileID: 0}
   idleSideSprite: {fileID: 0}
   walkFrontSprites:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: d4f03b2f4ef269140bd43c9aa8c1b472, type: 3}
+  - {fileID: 21300000, guid: e4149609226ec3d49a741e41b17c27a1, type: 3}
+  - {fileID: 21300000, guid: c257bfcf4ac57e543b197f523ba87287, type: 3}
   walkBackSprites:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: f9dd4b1f5d501a7489c063626e841961, type: 3}
+  - {fileID: 21300000, guid: 6c3f28bb882dabc4a832885563964caa, type: 3}
+  - {fileID: 21300000, guid: d436c64822094ee41b06d62711183b92, type: 3}
   walkSideSprites:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 4c15d22a6d4ab184ead53b9a6aaebf00, type: 3}
+  - {fileID: 21300000, guid: 716fa0c876452b3428082495f4799861, type: 3}
+  - {fileID: 21300000, guid: 2bf567a4c18946f49a90bb3c6be2231f, type: 3}
   animationSpeed: 5
   normalSR: {fileID: 983882157370142648}
   reverseSR: {fileID: 621228397475286955}
@@ -445,8 +448,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6963255586431260990}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2500005, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.625, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6839728032576866434}
@@ -493,15 +496,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d4f03b2f4ef269140bd43c9aa8c1b472, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 18.38, y: 12.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &353550325113141400
@@ -854,7 +857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4761366359509939451, guid: 54b8da88793a62a47bde9019e090ed94, type: 3}
       propertyPath: m_Color.a
-      value: 0.5019608
+      value: 0.2509804
       objectReference: {fileID: 0}
     - target: {fileID: 4761366359509939451, guid: 54b8da88793a62a47bde9019e090ed94, type: 3}
       propertyPath: m_Color.b

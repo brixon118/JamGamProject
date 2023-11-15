@@ -34,12 +34,20 @@ public class KeyPickUpAndDrop : MonoBehaviour
         if (collider == null)
             return;
 
-        if (collider.gameObject.tag == "KeyHoleEnemy" && cooldown <= 0 && Input.GetKeyDown(KeyCode.Space))
+        if (collider.gameObject.tag == "KeyHoleEnemy")
         {
-            collider.gameObject.GetComponent<KeyHole>().Lock();
-            energy++;
-            energyText.text = energy + "";
-            cooldown = 0.5f;
+            if (cooldown <= 0 && Input.GetKeyDown(KeyCode.Space))
+            {
+                collider.gameObject.GetComponent<KeyHole>().Lock();
+                energy++;
+                energyText.text = energy + "";
+                cooldown = 0.5f;
+            }
+            else
+            {
+                energyQuotaText.gameObject.SetActive(true);
+                energyQuotaText.text = "Press space to deactivate.";
+            }
         }
         else if (collider.gameObject.tag == "KeyHoleSwitch")
         {
@@ -62,12 +70,20 @@ public class KeyPickUpAndDrop : MonoBehaviour
                 energyQuotaText.gameObject.SetActive(true);
                 energyQuotaText.text = quota + " energy unit" + (quota == 1 ? "" : "s") + " required to activate.";
             }
-            else if (cooldown <= 0 && Input.GetKeyDown(KeyCode.Space))
+            else if (cooldown <= 0)
             {
-                energy -= quota;
-                energyText.text = energy + "";
-                keyHole.Unlock();
-                cooldown = 0.5f;
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    energy -= quota;
+                    energyText.text = energy + "";
+                    keyHole.Unlock();
+                    cooldown = 0.5f;
+                }
+                else
+                {
+                    energyQuotaText.gameObject.SetActive(true);
+                    energyQuotaText.text = "Press space to activate.";
+                }
             }
         }
 

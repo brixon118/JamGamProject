@@ -19,19 +19,20 @@ public class TurretScript : MonoBehaviour
 
     public void OnKeyIn()
     {
-        print("KEY IN");
+        //print("KEY IN");
         Key = true;
     }
 
     public void OnKeyOut() 
     {
-        print("KEY OUT");
+        //print("KEY OUT");
         Key = false;
     }
 
     public void Deactivate()
     {
         deactivated = true;
+        gameObject.layer = LayerMask.NameToLayer("Deactivated");
     }
 
     private void Update()

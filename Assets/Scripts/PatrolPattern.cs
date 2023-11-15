@@ -115,6 +115,7 @@ public class PatrolPattern : MonoBehaviour
             return;
         rb.velocity = Vector2.zero;
         deactivated = true;
+        gameObject.layer = LayerMask.NameToLayer("Deactivated");
+        animator.Stop();
     }
-
 }

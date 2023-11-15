@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EnterFactoryTrigger : MonoBehaviour
 {
-    [SerializeField] private AudioSource audioForest;
-    [SerializeField] private AudioSource audioFactory;
+    [SerializeField] private AudioSource musicForest;
+    [SerializeField] private AudioSource musicFactory;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class EnterFactoryTrigger : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.GetComponent<PlayerControls>() == null) return;
-        audioForest.Stop();
-        audioFactory.Play();
+        musicForest.Stop();
+        musicFactory.Play();
     }
 }
