@@ -85,7 +85,7 @@ public class PatrolPattern : MonoBehaviour
             Vector3 patrolPoint = patrolPoints[patrolIndex].transform.position;
             endPosition = new Vector2(patrolPoint.x, patrolPoint.y);
             Vector2 move = endPosition - startPosition;
-            animator.SetAnimation(move.x == 0 && move.y == 0 ? -1 : Mathf.Abs(move.x) > Mathf.Abs(move.y) ? (move.x < 0 ? 2 : 3) : (move.y < 0 ? 0 : 1));
+            animator.SetAnimation(move.x == 0 && move.y == 0 ? -1 : Mathf.Abs(move.x) > Mathf.Abs(move.y) ? (move.x < 0 ? 3 : 2) : (move.y < 0 ? 0 : 1));
             movementTime = Vector2.Distance(startPosition, endPosition) / moveSpeed;
             startRotation = endRotation;
             endRotation = Quaternion.LookRotation(Vector3.forward, patrolPoints[patrolIndex].transform.position - transform.position);

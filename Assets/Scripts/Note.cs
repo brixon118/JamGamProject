@@ -7,6 +7,8 @@ public class Note : MonoBehaviour
     [SerializeField] private GameObject noteScreen;
     [SerializeField] private GameObject canvasToHide;
     [SerializeField] private PauseManager pauseManager;
+    [SerializeField] private AudioSource musicToStop;
+    [SerializeField] private AudioSource musicToPlay;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,8 @@ public class Note : MonoBehaviour
         pauseManager.SetPaused(true);
         canvasToHide.SetActive(false);
         noteScreen.SetActive(true);
+        if (musicToStop != null) musicToStop.Stop();
+        if (musicToPlay != null) musicToPlay.Play();
         Destroy(gameObject);
     }
 }
